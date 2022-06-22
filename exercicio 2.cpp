@@ -1,5 +1,7 @@
 /*
-2. Um produtor rural produzatualmente5toneladasdegr„osporano.ElepretendeaumentarsuaproduÁ„oem10%aoanoatÈatingir10toneladas.FaÁaumprogramaquecalculeapÛsquantosanoseleestar·produzindoas10toneladas.
+2. Um produtor rural produz atualmente 5 toneladas de gr√£os por ano.
+Ele pretende aumentar sua produ√ß√£o em 10% ao ano at√© atingir 10 toneladas.
+Fa√ßa um programa que calcule ap√≥s quantos anos ele estar√° produzindo as 10toneladas.
 */
 #include<iostream>
 #include<locale.h>
@@ -17,10 +19,10 @@ int main(){
 
 		x = x + (x*0.1);		
 		cont ++;
-		cout<<cont<<"∫ ano "<<x<<" toneladas"<<endl;
+		cout<<cont<<"¬∫ ano "<<x<<" toneladas"<<endl;
 	}	
 
-	cout << "\nSer· necess·rio "<<cont<<" anos, atÈ chegar em 10 toneladas\n";
+	cout << "\nSer√° necess√°rio "<<cont<<" anos, at√© chegar em 10 toneladas\n";
 
 	cout << "\nfim do programa";
 }
