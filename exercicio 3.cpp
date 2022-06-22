@@ -1,5 +1,6 @@
 /*
-3)AsériedeFibonacciéformadapelaseguinteseqüência:1,1,2,3,5,8,13,21,34,...etc.Escrevaumprogramaquegereos20primeirostermosdasériedeFibonacci(N=20).
+3) A sÃ©rie de Fibonacci Ã© formada pela seguinte sequÃªncia: 1, 1, 2, 3, 5, 8, 13 ,21, 34, ... etc.
+Escreva um programa que gere os 20 primeiros termos da sÃ©rie de Fibonacci (N=20).
 */
 #include<iostream>
 #include<locale.h>
@@ -16,7 +17,7 @@ int main(){
 		a = b;
 		b = fibo;
 		
-		cout<<x<<"º termo de Fibonacci = "<<fibo<<endl;
+		cout<<x<<"Âº termo de Fibonacci = "<<fibo<<endl;
 		
 		x++;
 	}	
